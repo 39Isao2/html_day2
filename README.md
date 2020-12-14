@@ -51,6 +51,21 @@ company.htmlからindex.htmlにリンクするには？
 
 
 # ここ大事！！！ HTML5タグでセクショニング
+HTMLではそれぞれのエリアの意味を定義して、セクションニングする必要があります。（検索エンジン対策）<br>
+
+```
+header: ヘッダー部分
+
+nav : ナビゲーション部分
+
+main: メインコンテンツ内容全域
+
+article : 各記事やコンテンツの内容
+
+aside : サイドバーなど
+
+footer : フッター部分
+```
 
 <img src="layout.png">
 
@@ -71,35 +86,36 @@ company.htmlからindex.htmlにリンクするには？
 
 <small>タグのコピーライトは&copy;</small>
 
-コピーライトについて
-https://liginc.co.jp/designer/archives/11313
-
-実態参照一覧
-https://mimi.moe.in/nmp/hms/cer
 
 ```
 
-<img src="moundai.png">
+### 問題、この画像をセクショニングしてマークアップしてみましょう
+<img src="mondai.png">
 
-今までのをセクション内に移植する
+
+```
+
+
+<h1>ロゴ えのしま歯科</h1>
+<li><a href="aisatsu.html">ご挨拶</a>
+
+<small>enoshima copy;</small>
+
+```
 
 #### divタグ
-装飾のためのかこい
+特に意味を持たない装飾のための囲い
 ```
 <div style="background-color:red;">
- <h3 style="background-color:skyblue;">小見出し01</h3>
- <p>ここに文章</p>
+ 装飾画像
 </div>
 ```
-範囲や色を説明するために、いったんinlineスタイルでcssを指定 <br>
-全体をdivで囲んで色つけてみたりする
 
 #### spanタグ
 一部だけ装飾を変更する
 ```
-<div style="background-color:red;">
- <h3 style="background-color:skyblue;">小見出し<span style="background:red;">01</span></h3>
- <p>ここに文章</p>
+<div">
+ <h3>ここに小見出し<span style="background:red;">01</span>が表示</h3>
 </div>
 
 ```
@@ -112,10 +128,11 @@ https://mimi.moe.in/nmp/hms/cer
 ```
 
 
-## ブロック要素とインライン要素
-divとspanでブロック要素とインライン要素を説明 テキストと同じ動きがインライン要素、開業と同じ動きがブロック要素
-改行されたらブロック要素、インライン要素はcssで横幅とか設定できない（ブロックにしなきゃ）
-数的にインラインだけ覚えればOK
+## ブロック要素とインライン要素 
+指定しないと横幅100%なのがブロック要素。 テキストと同じ動きがインライン要素。<br>
+インライン要素はcssで横幅とか設定できない（ブロック要素にしなければいけない）<br>
+数的にインラインだけ覚えればOK cssの時に体感できると思います。<br>
+
 ```
 <a href="#">ページトップへ</a>
 <a href="#">ページトップへ</a>
@@ -124,10 +141,10 @@ divとspanでブロック要素とインライン要素を説明 テキストと
 <p>ブロック</p>
 ```
 
-セクションでマークアップする課題を出す
 
-#### 表の作成
 
+#### tableタグ(表の作成)
+集計結果などでまれに使います。
 ```
 
 <table border="1">
@@ -156,9 +173,11 @@ divとspanでブロック要素とインライン要素を説明 テキストと
     </tr>
 </table>
 
+tableタグについて
+https://udemy.benesse.co.jp/design/web-design/html-table.html
 ```
 
-#### フォーム（form）
+#### formタグ(フォーム)
 ```
 
 <h1>お問い合わせフォーム</h1>
@@ -188,4 +207,13 @@ divとspanでブロック要素とインライン要素を説明 テキストと
       <input type="submit" value="送信">
   </p>
 </form>
+
+フォームタグについて
+https://www.sejuku.net/blog/81862
 ```
+
+### コピーライトや実態参照について
+コピーライトについて
+https://liginc.co.jp/designer/archives/11313
+実態参照一覧
+https://mimi.moe.in/nmp/hms/cer
