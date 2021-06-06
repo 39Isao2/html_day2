@@ -98,12 +98,18 @@ footer : フッター部分
 
 
 ```
+使用テキスト
 
+h1 DHW CAFE
+nav <li><a href="#food">Food</a></l1>
+h2 Food
+ p 美味しいコーヒーを多数用意。バイヤーがこだわりの豆をセレクト
+   くつろぎのひとときを。本も用意しています。
+h2 Book
+ p 小説や、雑誌など様々なジャンルを取り揃えています。
 
-<h1>ロゴ えのしま歯科</h1>
-<li><a href="aisatsu.html">ご挨拶</a>
-
-<small>enoshima copy;</small>
+adress 湘南〜〜
+small コピーライト
 
 ```
 
