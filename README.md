@@ -124,7 +124,7 @@ small コピーライト
 #### spanタグ
 一部だけ装飾を変更する
 ```
-<div">
+<div>
  <h3>ここに小見出し<span style="background:red;">01</span>が表示</h3>
 </div>
 
