@@ -47,15 +47,18 @@ footer : フッター部分
 使用テキスト
 
 h1 DHW CAFE
-nav <li><a href="#food">Food</a></l1>
+nav <li><a href="#about">about</a></l1>
+    <li><a href="#food">food</a></l1>
+    <li><a href="#access">access</a></l1>
+    <li><a href="#contact">contact</a></l1>
 h2 Food
  p 美味しいコーヒーを多数用意。バイヤーがこだわりの豆をセレクト
    くつろぎのひとときを。本も用意しています。
 h2 Book
  p 小説や、雑誌など様々なジャンルを取り揃えています。
 
-adress 湘南〜〜
-small コピーライト
+adress 住所：〒251-0036　神奈川県藤沢市江の島２丁目３−２4
+small ©2020 DHW CAFE inc.
 
 ```
 
