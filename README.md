@@ -23,6 +23,7 @@ footer : フッター部分
 ```
 <header>
     <nav></nav>
+    <img src="images/main_image.jpg" width="1200px">
 </header>
 
 <main>
@@ -47,10 +48,12 @@ footer : フッター部分
 使用テキスト
 
 h1 DHW CAFE
-nav <li><a href="#about">about</a></l1>
-    <li><a href="#food">food</a></l1>
-    <li><a href="#access">access</a></l1>
-    <li><a href="#contact">contact</a></l1>
+nav <ul>
+        <li><a href="#about">about</a></l1>
+        <li><a href="#food">food</a></l1>
+        <li><a href="#access">access</a></l1>
+        <li><a href="#contact">contact</a></l1>
+    </ul>
 h2 Food
  p 美味しいコーヒーを多数用意。バイヤーがこだわりの豆をセレクト
    くつろぎのひとときを。本も用意しています。
