@@ -45,6 +45,9 @@ footer : フッター部分
 
 
 ```
+メインイメージはこれ
+<img src="images/main_image.jpg" width="1200px">
+
 使用テキスト
 
 h1 DHW CAFE
